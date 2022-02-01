@@ -1,0 +1,237 @@
+body,html {
+    background-image: url('backgroundwin.jpg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+    background-repeat:  no-repeat;
+    background-position: fixed;
+    overflow-wrap: hidden;
+}
+
+#see-desktop-root-app {
+    display: none;
+}
+
+/* Login main page */
+ 
+.flex {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.findplacelogininputbutton {
+    position: relative;
+    display: flex;
+    top: 6cm;
+    margin: 0 auto;
+    left: 0.5%;
+    justify-content: center;
+}
+
+.text-user-name {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    margin: 0 auto;
+    left: 47.9%;
+    top: 5cm;
+}
+
+.password-login {
+    position: relative;
+    background-color: rgba(71, 71, 71, 0.616);
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-color: transparent;
+    color: white;
+}
+
+.password-login:focus  {
+    position: relative;
+    border-bottom-color: #008cff;
+}
+
+::placeholder {
+ color: white;
+}
+
+.submit-button {
+    position: relative;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: transparent;
+    right: 26px;
+    background-color: transparent;
+}
+
+.submit-button:hover {
+    position: relative;
+    background-color: transparent;
+    fill: #008cff;
+}
+
+/* end login */
+
+
+#taskbar {
+    background-color: white;
+    border-color: white;
+    border-style: solid;
+    height: 1.3cm;
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    bottom: 0;
+}
+
+.windows-button {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+}
+
+.items-list {
+   margin: 0 auto;
+   text-align: center;
+   justify-content: center;
+   justify-items: center;
+   top: 5px;
+   position: relative;
+
+}
+
+.image-default-size {
+    width: 0.8cm;
+}
+
+#browser {
+    position: absolute;
+    z-index: 9;
+    background-color: #f1f1f1;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+}
+  
+  #browserheader {
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.menuwindows11 {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(49, 49, 49, 0.712);
+    border-color: gray;
+    border-style: solid;
+    width: 17cm;
+    height: 17cm;
+    top: 250px;
+    border-width: 0.5px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    display: none;
+}
+
+.menu-bottomwindows11 {
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    position: absolute;
+    position: absolute;
+    max-width: 100%;
+    width: 100%;
+    bottom: 0;
+    height: 2cm;
+    border-color: gray;
+    border-width: 0.1px;
+    border-style: solid;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+
+.userinformation {
+    position: relative;
+    top: -15px;
+    right: 20%;
+}
+
+.user-img {
+    position: relative;
+    width: 0.9cm;
+    bottom: 2.5px;
+    right: 1.5%;
+    border-radius: 100%;
+}
+
+.hiddenbar {
+    background-color: rgb(31, 31, 31);
+    border-color: rgb(31, 31, 31);
+    border-style: solid;
+    width: fit-content;
+    height: fit-content;
+}
+
+@media  only screen and (max-width: 1440px) {
+    
+.menuwindows11 {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(49, 49, 49, 0.712);
+    border-color: gray;
+    border-style: solid;
+    width: 17cm;
+    height: 17cm;
+    top: 180px;
+    border-width: 0.5px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+}
+
+@media  only screen and (max-width: 1770px) {
+    
+    .menuwindows11 {
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+        background-color: rgba(49, 49, 49, 0.712);
+        border-color: gray;
+        border-style: solid;
+        width: 17cm;
+        height: 17cm;
+        top: 170px;
+        border-width: 0.5px;
+        border-radius: 10px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
