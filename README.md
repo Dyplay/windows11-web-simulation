@@ -9,6 +9,6 @@
 <h1>Attention!⚠️</h1>
 <p aglin="center">
  <img src="ip.png"/>
-  <p>If your screensharing this our doing a livestream right now doing this do not click the windows button!</p>
+  <p>If your screensharing this or doing a livestream right do not click the windows button!</p>
   <p>Your IP can be leaked!</p>
 </p>
